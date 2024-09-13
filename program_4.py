@@ -7,7 +7,7 @@ def temp_conversion(celsius):
     # The program should ask the user to enter a temperature in Celsius, then display the temperature converted to Fahrenheit.
 
     # Calculate the Fahrenheit equivalent.
-    fahrenheit = 0.0
+    fahrenheit = 9/5*celsius + 32
     ######################
     # WRITE YOUR CODE HERE
     ######################    
@@ -27,3 +27,8 @@ if __name__ == '__main__':
     fahrenheit = temp_conversion(celsius)
     # Display the Fahrenheit temperature.
     print ("That is equal to", format(fahrenheit, '.2f'), "degrees Fahrenheit.")
+#/Users/caidennelson/PycharmProjects/PythonProgramming/.venv/bin/python /Users/caidennelson/PycharmProjects/PythonProgramming/.venv/week 2/test.py 
+#Enter a Celsius temperature: 45
+#That is equal to 113.00 degrees Fahrenheit.
+
+#Process finished with exit code 0
